@@ -1,0 +1,40 @@
+.bsl {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+}
+[class*="tab"], .atc{
+    background-color: rgb(212, 212, 212);
+    color: navy;
+    border: none;
+    padding: 15px 55px;
+}
+[class*="tab"]:focus,.atc:focus, [class*="tab"]:hover,.atc:hover {
+  background-color: navy;
+  color: rgb(212, 212, 212);
+}
+
+.hover-image {
+    display: none;
+  }
+  
+  .default-image:hover {
+    display: none;
+  }
+  
+  .default-image:hover + .hover-image{
+    display: inline;
+  }
+  .default-image:hover + .hover-image + .atc{
+    display: inline;
+  }
+  .atc{
+    display: none;
+  }
+
+th{
+    padding: 10px;
+    width: 250px; 
+}
