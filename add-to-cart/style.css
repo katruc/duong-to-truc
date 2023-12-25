@@ -1,5 +1,6 @@
 .item {
   height: 500px;
+  /* width: 500px; */
   background-image: url(https://fastly.picsum.photos/id/439/500/500.jpg?hmac=lj2SoYqYGC6Qd5qEW2YmgyD0qdxf5usiTeuC0RuGemo);
   background-repeat: no-repeat;
 }
