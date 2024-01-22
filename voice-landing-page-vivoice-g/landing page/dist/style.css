@@ -1,0 +1,66 @@
+/* .language-toggle-button {
+    font-family: "Arial", sans-serif;
+    font-size:2rem!important;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+  .languageSelector {
+    font-size: 1.15rem!important;
+    color: #a1a5b7;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .languageDropdown {
+    display: flex;
+    top: 100%;
+    left: 0;
+    border: none;
+    background-color: inherit;
+    color: #a1a5b7;    
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+  }
+
+  .languageDropdown option {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .languageSelector:hover #languageDropdown {
+    display: block;
+  }
+
+  .languageSelector:hover #languageDropdown option {
+    display: block;
+  }
+
+  .languageToggle {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .languageSelector:hover #languageToggle {
+    display: block;
+  }
+
+  .languageToggle:hover {
+    background-color: #2980b9;
+  }
+
