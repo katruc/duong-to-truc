@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Switcher Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.3/dist/umd/i18next.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <button onclick="changeLanguage('en')">English</button>
+      <button onclick="changeLanguage('vi')">Tiếng Việt</button>
+    </div>
+
+    <div id="welcome_message" class="i18n"></div>
+    <div id="about_us" class="i18n"></div>
+    <div id="contact_us" class="i18n"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
